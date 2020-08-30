@@ -1,4 +1,4 @@
-all: 02-litreview.pdf
+all: 01-proposal.pdf
 
 %.pdf: %.tex
 	latexmk -xelatex $<
